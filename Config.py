@@ -8,7 +8,7 @@ class Config(object):
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "YuYanMusicBot")
-    SUPPORT = os.environ.get("SUPPORT", "YuYanSuppor") # Your Support
+    SUPPORT = os.environ.get("SUPPORT", "YuYanSupport") # Your Support
     CHANNEL = os.environ.get("CHANNEL", "sonforcess") # Your Channel
     START_IMG = os.environ.get("START_IMG", "https://telegra.ph/file/1e420d2670772f1706e2d.png")
     CMD_IMG = os.environ.get("CMD_IMG", "https://te.legra.ph/file/29f523f1e3bb87ddcfda7.png")

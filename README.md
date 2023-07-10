@@ -7,25 +7,13 @@
 
 <p align="center"><a href="https://replit.com/@Itz-zaid/Generator"> <img src="https://img.shields.io/badge/String%20Session-black?style=for-the-badge&logo=web" width="220" height="38.45"/></a></p>
 
-# 
-
-<p align="center">Releasehub Tutorial </p>
-
-<p align="center"><a href="https://youtu.be/IDDyldUHOKo"> <img src="https://img.shields.io/badge/Releasehub%20Deploy-black?style=for-the-badge&logo=youtube" width="220" height="38.45"/></a></p>
-
-# 
-
-<p align="center">Scalingo Tutorial </p>
-
-<p align="center"><a href="https://youtu.be/NjKUeaAM0RI"> <img src="https://img.shields.io/badge/Scalingo%20Deploy-blue?style=for-the-badge&logo=youtube" width="220" height="38.45"/></a></p>
-
 ## ᴅᴇᴘʟᴏʏ
 
-Note: This Code Based On Telethon So You need [Telethon String Session](https://telethon.netlify.app/) And A bot token from @botfather Or Before hosting uh need to fill all config
+Note: This Code Based On Telethon So You need [Telethon String Session](https://telethon.netlify.app/) And A bot token from @botfather 
 
 [ꜰᴏʀᴋ ᴅᴇᴘʟᴏʏ ɪꜱ ʜɪɢʜʟʏ ʀᴇᴄᴏᴍᴍᴇɴᴅᴇᴅ](https://telegra.ph/file/5bcf79f948ca06030640c.mp4)
 
-<p align="center"><a href="https://my.scalingo.com/deploy?template=https://github.com/ITZ-ZAID/Telethon-Music"> <img src="https://cdn.scalingo.com/deploy/button.svg" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-pink?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 ## Workflows hosting
 
@@ -42,9 +30,9 @@ Note: This Code Based On Telethon So You need [Telethon String Session](https://
 sudo apt update && apt upgrade -y
 sudo apt install git curl python3-pip ffmpeg -y
 pip3 install -U pip
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash 
-source ~/.bashrc
-nvm install v18 #nodejs 18+
+curl -sL https://deb.nodesource.com/setup_16.x | bash -
+sudo apt-get install -y nodejs
+npm i -g npm
 git clone https://github.com/ITZ-ZAID/Telethon-Music # clone the repo.
 cd Telethon-Music
 pip3 install -U -r requirements.txt
@@ -59,7 +47,7 @@ python3 -m Zaid # run the bot.
 <p align="center"><a href="https://t.me/TheSupportChat"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-𝐒𝐮𝐩𝐩𝐨𝐫𝐭-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
 <p align="center"><a href="https://t.me/TheUpdatesChannel"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-𝐔𝐩𝐝𝐚𝐭𝐞𝐬-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
 
-# Credits
+# Creadits
 - Man Userbot
 - telethon library
 - pytgcalls
